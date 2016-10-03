@@ -1,8 +1,5 @@
 ﻿function Get-FactorioToken {
     <#
-    .NAME
-    Get-FactorioToken
-
     .SYNOPSIS
     Gets a factorio.com authentication token
 
@@ -29,9 +26,6 @@
 
 function Get-FactorioMod {
     <#
-    .NAME
-    Get-FactorioMod
-
     .SYNOPSIS
     Gets an object with the mod database information of a given mod
 
@@ -81,9 +75,6 @@ Update-TypeData -TypeName PSFactorio.FactorioMod -DefaultDisplayPropertySet name
 
 function Install-FactorioMod {
     <#
-    .NAME
-    Install-FactorioMod
-
     .SYNOPSIS
     Installs a mod from mods.factorio.com given credentials and the name
 
